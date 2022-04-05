@@ -4,15 +4,15 @@ body{
 
 .container{
     position: absolute;
-    margin-top: 10%;
+    margin-top: 15%;
     left: 50%;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
-    width: 350px;
-    height: 300px;
+    width: 500px;
+    height: 350px;
     background-color: white;
 
 
@@ -28,8 +28,9 @@ body{
 }
 
 table{
+    margin-top: 10%;
     position: absolute;
-    margin-top: 2%;
+
     left: 50%;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
@@ -53,6 +54,11 @@ td{
     border-left:  1px solid black;
     border-right:  1px solid black;
     padding: 10px;
+    min-width: 100px;
+}
+
+caption{
+    font-size: 20px;
 }
 
 tfoot, caption span{
